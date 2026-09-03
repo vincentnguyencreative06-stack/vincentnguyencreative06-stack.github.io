@@ -21,7 +21,7 @@ export function SiteFooter() {
       <div className="shell footer-bottom">
         <span>© 2026 Vincent Nguyen</span>
         <Link className="elsewhere" href="/marginalia">Elsewhere ✦</Link>
-        <span>Made with curiosity and strong coffee.</span>
+        <span>Made with curiosity and strong coffee, and matcha latte.</span>
       </div>
     </footer>
   );
