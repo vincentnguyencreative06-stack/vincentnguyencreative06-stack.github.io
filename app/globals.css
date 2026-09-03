@@ -186,7 +186,7 @@ p { margin: 0; }
 .metric strong { font-family: "Playfair", Georgia, serif; font-size: clamp(2.2rem, 4vw, 4rem); font-weight: 520; line-height: 1; }
 .metric span { margin-top: 12px; font-size: 0.9rem; letter-spacing: 0.04em; }
 
-.section-heading { max-width: 900px; margin-bottom: 55px; }
+.section-heading { max-width: 1200px; margin-bottom: 55px; }
 .section-heading h2 { margin-top: 18px; }
 .split-heading { max-width: none; display: grid; grid-template-columns: 8fr 4fr; gap: 50px; align-items: end; }
 .split-heading > p { max-width: 390px; color: var(--muted); }
