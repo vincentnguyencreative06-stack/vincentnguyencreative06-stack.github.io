@@ -38,7 +38,7 @@ export default function MarginaliaPage() {
             {episodes.map((episode) => <article key={episode.number}><span>{episode.number}</span><div><h3>{episode.title}</h3><p>{episode.note}</p>{episode.content && <small>Content note: mortality, grief and suicidal thoughts.</small>}<div><a href={episode.spotify} target="_blank" rel="noreferrer">Spotify ↗</a><a href={episode.apple} target="_blank" rel="noreferrer">Apple ↗</a></div></div></article>)}
           </div>
           <div className="video-grid">
-            <figure><video controls muted playsInline preload="metadata" poster="/assets/images/podcast-bts-poster.webp"><source src="/assets/media/podcast-behind-the-scenes.mp4" type="video/mp4" /></video><figcaption>Behind the scenes: recording and editing the show.</figcaption></figure>
+            <figure><video autoPlay loop muted playsInline preload="metadata" poster="/assets/images/podcast-bts-poster.webp"><source src="/assets/media/podcast-behind-the-scenes.mp4" type="video/mp4" /></video><figcaption>Behind the scenes: recording and editing the show.</figcaption></figure>
             <figure><img src="/assets/images/radio-studio.webp" alt="Vincent working with headphones and recording equipment" /><figcaption>Me, the little prince of my own imaginative land.</figcaption></figure>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function MarginaliaPage() {
 
       <section className="marginalia-chapter shell section-pad">
         <div className="chapter-heading"><span>05</span><div><p className="eyebrow">Symbols and self-understanding</p><h2>Some languages are analytical. Others are symbolic.</h2></div></div>
-        <div className="symbols-grid"><div><p>During an isolating period in high school, I taught myself Tarot through English-language materials while looking for a way to understand myself, and, eventually, other people. Astrology followed as another symbolic language through which I could explore identity, relationships and the stories people construct around their lives.</p><blockquote>I keep them as languages of reflection, never as substitutes for evidence.</blockquote></div><figure><video controls muted playsInline preload="metadata" poster="/assets/images/cards-bts-poster.webp"><source src="/assets/media/cards-behind-the-scenes.mp4" type="video/mp4" /></video><figcaption>Cards, symbols and a carefully considered frame.</figcaption></figure></div>
+        <div className="symbols-grid"><div><p>During an isolating period in high school, I taught myself Tarot through English-language materials while looking for a way to understand myself, and, eventually, other people. Astrology followed as another symbolic language through which I could explore identity, relationships and the stories people construct around their lives.</p><blockquote>I keep them as languages of reflection, never as substitutes for evidence.</blockquote></div><figure><video autoPlay loop muted playsInline preload="metadata" poster="/assets/images/cards-bts-poster.webp"><source src="/assets/media/cards-behind-the-scenes.mp4" type="video/mp4" /></video><figcaption>Cards, symbols and a carefully considered frame.</figcaption></figure></div>
       </section>
 
       <section className="shelf-band section-pad">
