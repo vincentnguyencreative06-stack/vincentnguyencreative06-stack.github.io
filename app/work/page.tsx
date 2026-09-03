@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "Work", description: "Selected analyt
 export default function WorkPage() {
   return (
     <>
-      <PageIntro eyebrow="Work / Selected studies" title="Business questions, made visible." intro="Each case study follows the path from an ambiguous business need to a structured analytical answer—and, most importantly, a clear next move." aside="Two projects · 2026" />
+      <PageIntro eyebrow="Work / Selected studies" title="Business questions, made visible." intro="Each case study follows the path from an ambiguous business need to a structured analytical answer, and, most importantly, a clear next move." aside="Two projects · 2026" />
       <section className="shell section-pad-top">
         <div className="progression-note"><span>Progression</span><p><strong>Supply Chain Performance Intelligence</strong> established my business-first approach to analytics. <strong>FinTech Transaction Intelligence</strong> extended that approach into data pipelines, cloud warehousing and SQL modelling.</p></div>
         <div className="project-grid work-grid">
