@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "Contact", description: "Contact Vinc
 export default function ContactPage() {
   return (
     <>
-      <PageIntro eyebrow="Contact / Open from September 2026" title="A thoughtful note is a good place to begin." intro="I welcome conversations about job interviews, analytical and creative collaborations, and shared research interests." aside="Based in Glasgow, Scotland. Available across the UK and remotely." />
+      <PageIntro eyebrow="Contact" title="A thoughtful note is a good place to begin." intro="I welcome conversations about job interviews, analytical and creative collaborations, and shared research interests." aside="Based in Glasgow, Scotland. Available across the UK and remotely." />
       <section className="shell contact-grid section-pad-top">
         <div className="contact-primary">
           <p className="eyebrow">Email</p>
@@ -16,7 +16,7 @@ export default function ContactPage() {
         </div>
         <div className="contact-reasons">
           <p className="eyebrow">Good reasons to write</p>
-          <ol><li><span>01</span><div><strong>Job interviews</strong><p>Data/BI Analyst and consulting opportunities from September 2026.</p></div></li><li><span>02</span><div><strong>Collaboration</strong><p>Analytics, storytelling, education or interdisciplinary creative work.</p></div></li><li><span>03</span><div><strong>Research conversations</strong><p>Shared questions around decision support, human-centred technology and responsible AI.</p></div></li></ol>
+          <ol><li><span>01</span><div><strong>Job interviews</strong><p>Data/BI Analyst and consulting opportunities.</p></div></li><li><span>02</span><div><strong>Collaboration</strong><p>Analytics, storytelling, education or interdisciplinary creative work.</p></div></li><li><span>03</span><div><strong>Research conversations</strong><p>Shared questions around decision support, human-centred technology and responsible AI.</p></div></li></ol>
         </div>
       </section>
       <section className="contact-links shell section-pad">
