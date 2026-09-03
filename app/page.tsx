@@ -10,8 +10,8 @@ export default function HomePage() {
       <section className="hero shell section-pad">
         <div className="hero-copy">
           <p className="eyebrow">Vincent Nguyen — Data/BI Analyst &amp; Consultant</p>
-          <h1>Turning complex data into decisions people can act on.</h1>
-          <p className="lede">I combine analytical problem-solving, business understanding and human-centred communication to turn information into meaningful action.</p>
+          <h1>Connecting data, business, and people with care.</h1>
+          <p className="lede">I approach analysis by asking what the evidence means for the business, what decision it should support, and who will be affected by it.</p>
           <p className="motto">Rooted in pride. Moved by people. Led by boldness.</p>
           <div className="button-row">
             <Link className="button button-solid" href="/work">View Selected Work <ArrowUpRight size={16} /></Link>
@@ -63,14 +63,14 @@ export default function HomePage() {
       <Reveal as="section" className="research-teaser">
         <div className="shell research-teaser-grid">
           <p className="section-number">R / 01</p>
-          <div><p className="eyebrow">Research interests</p><h2>Technology should strengthen human judgement—not quietly replace it.</h2><p>I am interested in the meeting point between analytics, responsible AI and organisational decision-making.</p></div>
+          <div><p className="eyebrow">Research interests</p><h2>Technology should strengthen human judgement, not quietly replace it.</h2><p>I am interested in the meeting point between analytics, responsible AI and organisational decision-making.</p></div>
           <Link className="round-link" href="/research" aria-label="Explore research interests"><ArrowUpRight /></Link>
         </div>
       </Reveal>
 
       <section className="shell closing-cta section-pad">
         <p className="eyebrow">Open for work or further discussion</p>
-        <h2>Looking for an analyst who can move between data, people and decisions?</h2>
+        <h2>Looking for an analyst who turns insight into impact, for businesses and the people they serve?</h2>
         <Link className="button button-solid" href="/contact">Send a Note <ArrowUpRight size={16} /></Link>
       </section>
     </>
