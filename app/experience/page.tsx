@@ -12,7 +12,7 @@ const roles = [
 export default function ExperiencePage() {
   return (
     <>
-      <PageIntro eyebrow="Experience / Education" title="Learning, teaching and building in public." intro="My professional path connects communication, independent creative work and business analysis—each sharpening the way I understand and explain complex ideas." aside="Available from September 2026" />
+      <PageIntro eyebrow="Experience / Education" title="Learning, teaching and building in public." intro="My professional path connects communication, independent creative work and business analysis - each sharpening the way I understand and explain complex ideas." aside="Available from September 2026" />
       <section className="shell section-pad-top">
         <div className="section-heading"><p className="eyebrow">Experience</p><h2>A timeline of applied communication.</h2></div>
         <div className="timeline">
