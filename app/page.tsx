@@ -69,7 +69,7 @@ export default function HomePage() {
       </Reveal>
 
       <section className="shell closing-cta section-pad">
-        <p className="eyebrow">Open from September 2026</p>
+        <p className="eyebrow">Open for work or further discussion</p>
         <h2>Looking for an analyst who can move between data, people and decisions?</h2>
         <Link className="button button-solid" href="/contact">Send a Note <ArrowUpRight size={16} /></Link>
       </section>
