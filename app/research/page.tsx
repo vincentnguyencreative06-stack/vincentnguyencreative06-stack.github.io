@@ -36,7 +36,7 @@ export default function ResearchPage() {
       </section>
       <section className="shell research-origin section-pad">
         <div><p className="eyebrow">Why research</p><h2>Knowledge should travel.</h2></div>
-        <div><p>I come from three generations of teachers: my grandparents, my parents and now me. That inheritance shaped my belief that knowledge can outlast the person who first discovered or explained it.</p><p>My own route—from logistics and teaching to media and analytics—has left me curious about how people interpret information, disagree with systems and retain agency in increasingly technological organisations.</p><Link className="text-link" href="/contact">Exchange perspectives <ArrowUpRight size={15} /></Link></div>
+        <div><p>I come from three generations of teachers: my grandparents, my parents and now me. That inheritance shaped my belief that knowledge can outlast the person who first discovered or explained it.</p><p>My own route, from logistics and teaching to media and analytics, has left me curious about how people interpret information, disagree with systems and retain agency in increasingly technological organisations.</p><Link className="text-link" href="/contact">Exchange perspectives <ArrowUpRight size={15} /></Link></div>
       </section>
     </>
   );
