@@ -16,7 +16,8 @@ export default function MarginaliaPage() {
       <section className="marginalia-hero shell section-pad">
         <Link className="back-link" href="/"><ArrowLeft size={15} /> Return to the serious pages</Link>
         <div className="marginalia-hero-grid">
-          <div><p className="eyebrow">A footnote with its own door</p><h1>Marginalia</h1><p className="lede">The things that do not fit neatly into a CV, but explain the person who made it.</p><p className="hand-note">Warmly catalogued. Selectively sensible.</p></div>
+          <div><p className="eyebrow">A footnote with its own door</p><h1>Marginalia</h1><p className="lede">Behind the résumé is a room I rarely leave unlocked: the radio hums, the ink stays wet, and everything here is a part of me.
+</p><p className="hand-note">Filed under: things I care about a little too much.</p></div>
           <figure><img src="/assets/images/marginalia-hero.webp" alt="Vincent wearing a playful denim crown and holding a card" /><figcaption>Exhibit A: seriousness, reconsidered.</figcaption></figure>
         </div>
       </section>
@@ -38,7 +39,7 @@ export default function MarginaliaPage() {
           </div>
           <div className="video-grid">
             <figure><video controls muted playsInline preload="metadata" poster="/assets/images/podcast-bts-poster.webp"><source src="/assets/media/podcast-behind-the-scenes.mp4" type="video/mp4" /></video><figcaption>Behind the scenes: recording and editing the show.</figcaption></figure>
-            <figure><img src="/assets/images/radio-studio.webp" alt="Vincent working with headphones and recording equipment" /><figcaption>Scripts, headphones and the long way to a clean take.</figcaption></figure>
+            <figure><img src="/assets/images/radio-studio.webp" alt="Vincent working with headphones and recording equipment" /><figcaption>Me, the little prince of my own imaginative land.</figcaption></figure>
           </div>
         </div>
       </section>
@@ -46,7 +47,7 @@ export default function MarginaliaPage() {
       <section className="marginalia-chapter shell section-pad">
         <div className="chapter-heading"><span>03</span><div><p className="eyebrow">Notes written in verse</p><h2>Poetry arrived before I knew how to invite it.</h2></div></div>
         <div className="poetry-grid">
-          <div className="poetry-intro"><p>I came to poetry like a wanderer looking for shelter—a way to soothe the loneliness within me. It found me during my first romantic heartbreak, as naturally as a sigh after love had been refused.</p><p>I wrote poem after poem to preserve emotions that arrived too quickly to contain. I experiment with several forms, although I remain most drawn to classical Chinese Tang-style verse. In time, I hope to give every poem the English translation it deserves.</p></div>
+          <div className="poetry-intro"><p>I came to poetry like a wanderer looking for shelter: a way to soothe the loneliness within me. It found me during my first romantic heartbreak, as naturally as a sigh after love had been refused.</p><p>I wrote poem after poem to preserve emotions that arrived too quickly to contain. I experiment with several forms, although I remain most drawn to classical Chinese Tang-style verse. In time, I hope to give every poem the English translation it deserves.</p></div>
           <figure><img src="/assets/images/poetry-page.webp" alt="A handwritten poem on a page" /><figcaption>Drafts written slowly, feelings arriving quickly.</figcaption></figure>
         </div>
         <div className="poem-cards">
@@ -62,11 +63,11 @@ export default function MarginaliaPage() {
 
       <section className="marginalia-chapter shell section-pad">
         <div className="chapter-heading"><span>05</span><div><p className="eyebrow">Symbols and self-understanding</p><h2>Some languages are analytical. Others are symbolic.</h2></div></div>
-        <div className="symbols-grid"><div><p>During an isolating period in high school, I taught myself Tarot through English-language materials while looking for a way to understand myself—and, eventually, other people. Astrology followed as another symbolic language through which I could explore identity, relationships and the stories people construct around their lives.</p><blockquote>I keep them as languages of reflection, never as substitutes for evidence.</blockquote></div><figure><video controls muted playsInline preload="metadata" poster="/assets/images/cards-bts-poster.webp"><source src="/assets/media/cards-behind-the-scenes.mp4" type="video/mp4" /></video><figcaption>Cards, symbols and a carefully considered frame.</figcaption></figure></div>
+        <div className="symbols-grid"><div><p>During an isolating period in high school, I taught myself Tarot through English-language materials while looking for a way to understand myself, and, eventually, other people. Astrology followed as another symbolic language through which I could explore identity, relationships and the stories people construct around their lives.</p><blockquote>I keep them as languages of reflection, never as substitutes for evidence.</blockquote></div><figure><video controls muted playsInline preload="metadata" poster="/assets/images/cards-bts-poster.webp"><source src="/assets/media/cards-behind-the-scenes.mp4" type="video/mp4" /></video><figcaption>Cards, symbols and a carefully considered frame.</figcaption></figure></div>
       </section>
 
       <section className="shelf-band section-pad">
-        <div className="shell"><div className="chapter-heading"><span>06</span><div><p className="eyebrow">The cultural shelf</p><h2>Things that stay in the room after they end.</h2></div></div><div className="shelf-grid"><article><Headphones /><span>Listening</span><p>Pop, folk, indie and alternative—with Taylor Swift as the clearest creative influence.</p></article><article><Sparkles /><span>Watching</span><p><em>Jojo Rabbit</em>, <em>Ocean&apos;s 8</em> and <em>Heartstopper</em>.</p></article><article><PenLine /><span>Talking for hours</span><p>Mysticism, patriarchy, feminism, linguistics, language acquisition and literature.</p></article><article><LibraryBig /><span>A small obsession</span><p>How people perceive themselves and the world around them, especially within LGBTQIA+ communities.</p></article></div></div>
+        <div className="shell"><div className="chapter-heading"><span>06</span><div><p className="eyebrow">The cultural shelf</p><h2>Things that stay in the room after they end.</h2></div></div><div className="shelf-grid"><article><Headphones /><span>Listening</span><p>Pop, folk, indie and alternative, with Taylor Swift as the clearest creative influence.</p></article><article><Sparkles /><span>Watching</span><p><em>Jojo Rabbit</em>, <em>Ocean&apos;s 8</em> and <em>Heartstopper</em>.</p></article><article><PenLine /><span>Talking for hours</span><p>Mysticism, patriarchy, feminism, linguistics, language acquisition and literature.</p></article><article><LibraryBig /><span>A small obsession</span><p>How people perceive themselves and the world around them, especially within LGBTQIA+ communities.</p></article></div></div>
       </section>
 
       <section className="shell unnecessary section-pad"><p className="eyebrow">07 / A few unnecessary facts</p><div className="unnecessary-grid"><p>I once weighed <strong>94 kilograms</strong> and worked my way down to <strong>67</strong>. The current number remains classified.</p><p>I would like to learn <strong>French</strong>, partly for the language and partly for the pleasure of becoming a beginner again.</p><p>My only declared life principle: <strong>when you do something, do it wholeheartedly.</strong></p></div></section>
