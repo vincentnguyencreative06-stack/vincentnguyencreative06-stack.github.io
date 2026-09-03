@@ -1,0 +1,4 @@
+This site uses Playfair and Gudea, distributed through Google Fonts under the SIL Open Font License.
+
+Playfair: https://fonts.google.com/specimen/Playfair
+Gudea: https://fonts.google.com/specimen/Gudea
