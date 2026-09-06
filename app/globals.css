@@ -374,6 +374,34 @@ p { margin: 0; }
 .next-case a:hover { color: var(--rust); }
 
 .marginalia { --margin-yellow: #d6a438; }
+.marginalia-pixel-room {
+  --pixel-trail-color: rgba(111, 47, 32, 0.16);
+  position: relative;
+  isolation: isolate;
+}
+
+:root[data-theme="dark"] .marginalia-pixel-room {
+  --pixel-trail-color: rgba(240, 161, 127, 0.14);
+}
+
+.pixel-trail {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  display: grid;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.pixel-trail__pixel {
+  display: block;
+  opacity: 0;
+}
+
+.marginalia-pixel-room > :not(.pixel-trail) {
+  position: relative;
+  z-index: 1;
+}
 .marginalia-hero { min-height: calc(100vh - 78px); }
 .marginalia-hero-grid { display: grid; grid-template-columns: 7fr 5fr; gap: 70px; align-items: center; margin-top: 60px; }
 .marginalia-hero h1 { font-style: italic; color: var(--forest); }
