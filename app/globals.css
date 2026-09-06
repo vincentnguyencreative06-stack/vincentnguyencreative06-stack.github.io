@@ -186,7 +186,7 @@ p { margin: 0; }
 .metric strong { font-family: "Playfair", Georgia, serif; font-size: clamp(2.2rem, 4vw, 4rem); font-weight: 520; line-height: 1; }
 .metric span { margin-top: 12px; font-size: 0.9rem; letter-spacing: 0.04em; }
 
-.section-heading { max-width: 1200px; margin-bottom: 55px; }
+.section-heading { max-width: 900px; margin-bottom: 55px; }
 .section-heading h2 { margin-top: 18px; }
 .split-heading { max-width: none; display: grid; grid-template-columns: 8fr 4fr; gap: 50px; align-items: end; }
 .split-heading > p { max-width: 390px; color: var(--muted); }
@@ -247,7 +247,7 @@ p { margin: 0; }
 .margin-note > span { color: var(--rust); font-family: "Playfair", Georgia, serif; font-size: 2.5rem; }
 .margin-note a { border-bottom: 1px solid; }
 
-.progression-note { display: grid; grid-template-columns: 2fr 10fr; gap: 30px; margin-bottom: 80px; padding: 26px 0; border-block: 1px solid var(--line); }
+.progression-note { display: grid; grid-template-columns: 2fr 10fr; gap: 30px; margin-bottom: 80px; padding: 26px 0; border-bottom: 1px solid var(--line); }
 .progression-note span { color: var(--rust); font-size: 0.875rem; letter-spacing: 0.1em; text-transform: uppercase; }
 .progression-note p { max-width: 920px; }
 .work-grid { margin-bottom: 30px; }
