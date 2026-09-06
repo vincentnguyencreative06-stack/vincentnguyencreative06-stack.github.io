@@ -80,15 +80,15 @@ export function SiteFooter() {
             >
               <span className="secret-door-half secret-door-left">Else</span>
               <span className="secret-door-half secret-door-right">where</span>
-              <span className="secret-door-star" aria-hidden="true">✦</span>
+              <span className="secret-door-star" aria-hidden="true" />
             </Link>
             <span className="secret-door-frame" aria-hidden="true">
               <span className="secret-door-preview" />
             </span>
             <span className="secret-door-whisper" aria-hidden="true">A room behind the résumé.</span>
-            <span className="secret-door-spark spark-one" aria-hidden="true">✦</span>
-            <span className="secret-door-spark spark-two" aria-hidden="true">·</span>
-            <span className="secret-door-spark spark-three" aria-hidden="true">✧</span>
+            <span className="secret-door-spark spark-one" aria-hidden="true" />
+            <span className="secret-door-spark spark-two" aria-hidden="true" />
+            <span className="secret-door-spark spark-three" aria-hidden="true" />
           </div>
           <span>Made with curiosity and strong coffee.</span>
         </div>
