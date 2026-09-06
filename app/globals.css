@@ -173,7 +173,8 @@ p { margin: 0; }
 .hero-copy .lede { max-width: 690px; margin-top: 32px; color: var(--muted); font-size: clamp(1.05rem, 1.6vw, 1.3rem); line-height: 1.55; }
 .motto { margin-top: 22px; font-family: "Playfair", Georgia, serif; font-size: 1.1rem; font-style: italic; color: var(--rust); }
 .hero-figure { position: relative; margin: 0; padding: 20px 20px 15px; border: 1px solid var(--line); background: var(--paper); box-shadow: var(--shadow); transform: rotate(1.3deg); }
-.hero-figure::before { content: "âœ¦"; position: absolute; top: -19px; right: 24px; z-index: 2; width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; background: var(--rust); color: #fff; }
+.hero-figure::before { content: ""; position: absolute; top: -19px; right: 24px; z-index: 2; width: 42px; height: 42px; border-radius: 50%; background: var(--rust); }
+.hero-figure::after { content: ""; position: absolute; top: -6px; right: 37px; z-index: 3; width: 16px; height: 16px; background: #fff; clip-path: polygon(50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%, 40% 40%); }
 .hero-figure img { aspect-ratio: 4 / 5; object-fit: cover; object-position: center 18%; filter: saturate(0.92) contrast(0.96); }
 .hero-figure figcaption, figure figcaption { margin-top: 10px; color: var(--muted); font-size: 0.8125rem; letter-spacing: 0.035em; }
 .image-index { position: absolute; left: -25px; top: 70px; z-index: 2; writing-mode: vertical-rl; color: var(--muted); font-size: 0.8125rem; letter-spacing: 0.12em; text-transform: uppercase; }
@@ -476,7 +477,7 @@ p { margin: 0; }
 .unnecessary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 48px; }
 .unnecessary-grid p { min-height: 210px; padding: 28px; border-top: 1px solid var(--line); font-family: "Playfair", Georgia, serif; font-size: 1.35rem; }
 .wholehearted { display: flex; flex-direction: column; align-items: center; text-align: center; border-top: 1px solid var(--line); }
-.wholehearted > span { color: var(--rust); font-size: 2rem; }
+.wholehearted > span { display: block; width: 1.8rem; height: 1.8rem; overflow: hidden; color: transparent; background: var(--rust); font-size: 0; clip-path: polygon(50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%, 40% 40%); }
 .wholehearted blockquote { margin-block: 30px 45px; font-size: clamp(3rem, 7vw, 7.2rem); font-style: italic; }
 
 .site-footer { padding-top: 80px; border-top: 1px solid var(--line); background: var(--paper); }
@@ -517,7 +518,11 @@ p { margin: 0; }
 
 .secret-door-star {
   display: inline-block;
+  width: .85rem;
+  height: .85rem;
   margin-left: .35em;
+  background: currentColor;
+  clip-path: polygon(50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%, 40% 40%);
   transform-origin: -66px 50%;
   transition: transform 720ms cubic-bezier(.2, .8, .2, 1), color 250ms ease;
 }
@@ -549,49 +554,62 @@ p { margin: 0; }
   inset: 0;
   background:
     linear-gradient(180deg, rgba(16, 22, 15, .06), rgba(16, 22, 15, .38)),
-    url("/assets/images/marginalia-hero.webp") center 16% / cover no-repeat;
-  transform: scale(1.12) rotate(-2deg);
+    url("/assets/images/book.webp") center / cover no-repeat;
+  filter: saturate(.82) contrast(1.06);
+  transform: scale(1.14) rotate(-2deg);
   transition: transform 900ms cubic-bezier(.2, .8, .2, 1);
 }
 
 .secret-door-preview::after {
-  content: "âœ¦";
+  content: "";
   position: absolute;
   top: 13px;
   right: 11px;
-  color: #fff8ec;
-  text-shadow: 0 0 12px rgba(255, 248, 236, .7);
+  width: .8rem;
+  height: .8rem;
+  background: #fff8ec;
+  clip-path: polygon(50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%, 40% 40%);
+  filter: drop-shadow(0 0 7px rgba(255, 248, 236, .75));
   animation: secret-twinkle 1.25s ease-in-out infinite alternate;
 }
 
 .secret-door-whisper {
   position: absolute;
   left: 50%;
-  bottom: calc(100% + 7.2rem);
-  color: var(--rust);
+  bottom: calc(100% + .45rem);
+  z-index: 2;
+  width: 7.7rem;
+  padding: 5px 7px;
+  border: 1px solid rgba(243, 235, 221, .34);
+  border-radius: 2px;
+  color: #f3ebdd;
+  background: rgba(16, 22, 15, .86);
   font-family: "Playfair", Georgia, serif;
-  font-size: .9rem;
+  font-size: .68rem;
   font-style: italic;
   letter-spacing: 0;
-  line-height: 1.2;
+  line-height: 1.12;
   opacity: 0;
   pointer-events: none;
-  transform: translate(-50%, 12px);
-  white-space: nowrap;
+  text-align: center;
+  transform: translate(-50%, 8px);
   transition: opacity 300ms ease 180ms, transform 500ms cubic-bezier(.2, .8, .2, 1) 120ms;
 }
 
 .secret-door-spark {
   position: absolute;
   bottom: calc(100% + 3rem);
-  color: var(--rust);
+  width: .7rem;
+  height: .7rem;
+  background: var(--rust);
+  clip-path: polygon(50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%, 40% 40%);
   opacity: 0;
   pointer-events: none;
 }
 
 .secret-door-spark.spark-one { left: calc(50% - 5.8rem); }
-.secret-door-spark.spark-two { left: calc(50% + 5.1rem); bottom: calc(100% + 5.5rem); }
-.secret-door-spark.spark-three { left: calc(50% + 4.1rem); bottom: calc(100% + 2rem); }
+.secret-door-spark.spark-two { left: calc(50% + 5.1rem); bottom: calc(100% + 5.5rem); width: .3rem; height: .3rem; border-radius: 50%; clip-path: none; }
+.secret-door-spark.spark-three { left: calc(50% + 4.1rem); bottom: calc(100% + 2rem); width: .5rem; height: .5rem; }
 
 .secret-door:hover .secret-door-left,
 .secret-door-trigger:focus-visible .secret-door-left { transform: translateX(-3.7rem); }
