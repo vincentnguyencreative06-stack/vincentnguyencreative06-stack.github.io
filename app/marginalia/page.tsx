@@ -1,3 +1,4 @@
+import { PixelTrail } from "@/components/PixelTrail";
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
@@ -50,7 +51,7 @@ const episodes = [
 
 export default function MarginaliaPage() {
   return (
-    <div className="marginalia">
+    <div className="marginalia marginalia-pixel-room">   <PixelTrail pixelSize={68} fadeDuration={850} delay={90} />
       <Reveal
         as="section"
         variant="marginalia-door"
