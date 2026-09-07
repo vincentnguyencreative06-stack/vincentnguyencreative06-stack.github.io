@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export function SiteFooter() {
   return (
@@ -19,48 +18,10 @@ export function SiteFooter() {
           <a href="https://github.com/Vincentnguyencreative06-stack" target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
       </div>
-
       <div className="shell footer-bottom">
         <span>© 2026 Vincent Nguyen</span>
-
-        <div className="elsewhere-envelope">
-          <Link
-            className="elsewhere elsewhere-envelope-trigger"
-            href="/marginalia"
-            aria-label="Enter Marginalia"
-          >
-            <span className="elsewhere-envelope-caption" aria-hidden="true">
-              A LINE FROM ELSEWHERE
-            </span>
-
-            <span className="elsewhere-envelope-stage" aria-hidden="true">
-              <span className="elsewhere-envelope-scene">
-                <span className="elsewhere-envelope-back" />
-
-                <span className="elsewhere-envelope-letter">
-                  <Image
-                    className="elsewhere-envelope-photo"
-                    src="/assets/images/poetry-page.webp"
-                    alt=""
-                    fill
-                    sizes="150px"
-                  />
-                  <span className="elsewhere-envelope-photo-shade" />
-                  <span className="elsewhere-envelope-index">M—03</span>
-                </span>
-
-                <span className="elsewhere-envelope-flap" />
-                <span className="elsewhere-envelope-front" />
-                <span className="elsewhere-envelope-tear-strip" />
-              </span>
-
-              <span className="elsewhere-envelope-label">Elsewhere</span>
-              <span className="elsewhere-envelope-star">✦</span>
-            </span>
-          </Link>
-        </div>
-
-        <span>Made with curiosity and strong coffee.</span>
+        <Link className="elsewhere" href="/marginalia">Elsewhere ✦</Link>
+        <span>Made with curiosity and strong coffee, and matcha latte.</span>
       </div>
     </footer>
   );
