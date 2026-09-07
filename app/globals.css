@@ -173,7 +173,7 @@ p { margin: 0; }
 .hero-copy .lede { max-width: 690px; margin-top: 32px; color: var(--muted); font-size: clamp(1.05rem, 1.6vw, 1.3rem); line-height: 1.55; }
 .motto { margin-top: 22px; font-family: "Playfair", Georgia, serif; font-size: 1.1rem; font-style: italic; color: var(--rust); }
 .hero-figure { position: relative; margin: 0; padding: 20px 20px 15px; border: 1px solid var(--line); background: var(--paper); box-shadow: var(--shadow); transform: rotate(1.3deg); }
-.hero-figure::before { content: "âœ¦"; position: absolute; top: -19px; right: 24px; z-index: 2; width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; background: var(--rust); color: #fff; }
+.hero-figure::before { content: "✦"; position: absolute; top: -19px; right: 24px; z-index: 2; width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; background: var(--rust); color: #fff; }
 .hero-figure img { aspect-ratio: 4 / 5; object-fit: cover; object-position: center 18%; filter: saturate(0.92) contrast(0.96); }
 .hero-figure figcaption, figure figcaption { margin-top: 10px; color: var(--muted); font-size: 0.8125rem; letter-spacing: 0.035em; }
 .image-index { position: absolute; left: -25px; top: 70px; z-index: 2; writing-mode: vertical-rl; color: var(--muted); font-size: 0.8125rem; letter-spacing: 0.12em; text-transform: uppercase; }
