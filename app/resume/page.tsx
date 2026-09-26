@@ -17,7 +17,7 @@ export default function ResumePage() {
           <p>The résumé brings together my education, professional experience and selected analytics work, with direct links to the projects featured across this portfolio.
 </p>
           <a className="button button-solid" href="https://canva.link/zwi4tklsue8v84t" target="_blank" rel="noreferrer">View Résumé <ArrowUpRight size={16} /></a>
-          <a className="button button-quiet" href="/files/Vincent-Nguyen-Resume.pdf" download>Download PDF <ArrowDownToLine size={16} /></a>
+          <a className="button button-quiet" href="/files/Vincent_Nguyen_UK_Graduate_CV.pdf" download>Download PDF <ArrowDownToLine size={16} /></a>
         </aside>
       </section>
     </>
